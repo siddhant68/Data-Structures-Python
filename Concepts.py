@@ -1,7 +1,8 @@
+###################################################################
+
 # Stack or Queue in list
 
 l = [1, 2, 3]
-
 l.append(4)
 l.pop()
 print(l)
@@ -9,6 +10,7 @@ print(l)
 l.append(4)
 l.pop(0)
 print(l)
+
 ###################################################################
 
 # Sorting objects
@@ -60,14 +62,11 @@ while i < len(l1) and j >= 0:
         j -= 1
 
 print(ctr)
+
+mat = [[0]*4]*4
+print(mat[0][0])
+mat[0][0] = 1
+print(mat)
     
-
-
-
-
-
-
-
-
 
         
